@@ -7,12 +7,12 @@ public class SystemInTest2 {
 
 	public static void main(String[] args) {
 
-		System.out.println("ÀÔ·Â ÈÄ '³¡' ÀÌ¶ó°í ¾²¼¼¿ä:");
+		System.out.println("ì…ë ¥ í›„ 'ë' ì´ë¼ê³  ì“°ì„¸ìš”:");
 		
 		try {
 			int i;
 			InputStreamReader isr = new InputStreamReader(System.in);
-			while ( (i = isr.read()) != '³¡') {
+			while ( (i = isr.read()) != 'ë') {
 				System.out.print((char)i);
 			}
 		} catch (IOException e) {
